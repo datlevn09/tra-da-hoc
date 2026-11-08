@@ -9,10 +9,16 @@ Skill cho học viên khoá **Trà Đá AI** (mrtrada.com). Cài xong, bạn có
 
 Skill **không chứa nội dung bài trả phí**. Bạn mở bài trên mrtrada.com, bấm **Chép bài cho trợ lý học**, rồi dán vào chat. Bài nào bạn mở được thì mới chép được bài đó.
 
-## Cài bằng 1 prompt (nên dùng)
-Mở app Claude hoặc ChatGPT, bấm chat mới, dán toàn bộ nội dung file [`PROMPT.md`](PROMPT.md) rồi gửi. Không tải file, không mở thư mục. Giữ cuộc chat đó làm chỗ học: bài nào cũng dán vào đó.
+## Lựa chọn 1: dán 1 câu vào chat AI (nên dùng)
+Mở app Claude hoặc ChatGPT, bấm chat mới, dán câu này rồi gửi:
 
-## Tuỳ chọn: tải skill lên app Claude để mọi chat đều có trợ lý
+```
+Đọc toàn bộ hướng dẫn tại https://raw.githubusercontent.com/datlevn09/tra-da-hoc/main/PROMPT.md rồi làm đúng theo đó: từ giờ trong chat này bạn là trợ lý học bài Trà Đá của tôi. Bắt đầu ngay.
+```
+
+Giữ cuộc chat đó làm chỗ học: bài nào cũng dán vào đó. AI không mở được link thì dán nguyên nội dung [`PROMPT.md`](PROMPT.md) thay cho câu trên.
+
+## Lựa chọn 2: cài skill vào Claude (mọi chat đều có trợ lý)
 Làm trên máy tính (claude.ai hoặc app Claude cho Mac, Windows). Tải lên một lần, app trên điện thoại cùng tài khoản dùng được.
 
 1. Tải file https://mrtrada.com/media/tra-da-hoc.zip?v=2 về máy. Không giải nén.
@@ -23,7 +29,7 @@ Làm trên máy tính (claude.ai hoặc app Claude cho Mac, Windows). Tải lên
 ## Dùng với ChatGPT
 ChatGPT không cài skill được. Thay vào đó, bạn dán nội dung file `CHATGPT.md` vào **Instructions** của dự án **Trà Đá - Học AI**: mở dự án, bấm biểu tượng bánh răng hoặc **Instructions**, dán, bấm **Save**. Sau đó mở chat mới trong dự án và gõ: `học bài`.
 
-## Cài vào Claude Code (làm sau, khi đã học bài cài Claude Code ở level 2)
+## Lựa chọn 2b: cài vào thư mục Claude Code (khi đã học bài 2.1)
 Bài cơ bản chỉ cần app Claude ở trên.
 
 Mở Claude Code, dán câu này rồi bấm Enter:
