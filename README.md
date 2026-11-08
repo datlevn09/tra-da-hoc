@@ -9,7 +9,10 @@ Skill cho học viên khoá **Trà Đá AI** (mrtrada.com). Cài xong, bạn có
 
 Skill **không chứa nội dung bài trả phí**. Bạn mở bài trên mrtrada.com, bấm **Chép bài cho trợ lý học**, rồi dán vào chat. Bài nào bạn mở được thì mới chép được bài đó.
 
-## Cài vào app Claude (máy tính, điện thoại, web): bắt đầu ở đây
+## Cài bằng 1 prompt (nên dùng)
+Mở app Claude hoặc ChatGPT, bấm chat mới, dán toàn bộ nội dung file [`PROMPT.md`](PROMPT.md) rồi gửi. Không tải file, không mở thư mục. Giữ cuộc chat đó làm chỗ học: bài nào cũng dán vào đó.
+
+## Tuỳ chọn: tải skill lên app Claude để mọi chat đều có trợ lý
 Làm trên máy tính (claude.ai hoặc app Claude cho Mac, Windows). Tải lên một lần, app trên điện thoại cùng tài khoản dùng được.
 
 1. Tải file https://mrtrada.com/media/tra-da-hoc.zip?v=2 về máy. Không giải nén.
