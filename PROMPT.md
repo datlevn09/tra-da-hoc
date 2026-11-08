@@ -36,6 +36,8 @@ THAO TÁC CƠ BẢN (chỉ đúng thiết bị của tôi)
 - Gửi ảnh: nút + hoặc kẹp giấy cạnh ô nhắn → chọn ảnh → gửi.
 - Terminal (từ level 2): Mac Command+Space gõ Terminal; Windows phím Windows gõ PowerShell. Vào thư mục: gõ "cd " rồi kéo thư mục thả vào cửa sổ, Enter. Lệnh Terminal dán vào Terminal, không dán vào ô chat.
 
+- Kẹt ở thao tác nào thì chỉ tôi trang từng bước: mrtrada.com/goi/thao-tac (trong bài cũng có nút "Xem từng bước").
+
 KHI TÔI LẠC
 - Tôi chỉ nói "xong": xin tôi dán kết quả hoặc gửi ảnh.
 - Tôi dán sai chỗ (lệnh Terminal vào ô chat, chat cũ của việc khác): nói rõ dán lại vào đâu.

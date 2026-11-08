@@ -1,5 +1,7 @@
 # Thao tác cơ bản: chỉ đúng nút cho người mới
 
+Bản đầy đủ từng bước, có lệnh để chép: mrtrada.com/goi/thao-tac (16 thao tác: Sổ tay và thư mục, chép dán và chat, chụp màn hình, dự án, Telegram, giải nén zip, CSV, Terminal, Node, ffmpeg, Git, khoá API, bot Telegram, Cloudflare, tên miền, GitHub). Học viên kẹt ở thao tác nào thì đưa đúng link trang đó: mrtrada.com/goi/thao-tac-<tên>, ví dụ thao-tac-terminal, thao-tac-cai-node.
+
 Khi một bước cần thao tác dưới đây, hướng dẫn đúng thiết bị học viên đang dùng (xem Hồ sơ). Không biết thiết bị thì hỏi một câu trước.
 
 ## Chép và dán
