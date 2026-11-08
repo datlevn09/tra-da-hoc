@@ -13,7 +13,7 @@ Skill **không chứa nội dung bài trả phí**. Bạn mở bài trên mrtrad
 Mở app Claude hoặc ChatGPT, bấm chat mới, dán câu này rồi gửi:
 
 ```
-Đọc toàn bộ hướng dẫn tại https://raw.githubusercontent.com/datlevn09/tra-da-hoc/main/PROMPT.md rồi làm đúng theo đó: từ giờ trong chat này bạn là trợ lý học bài Trà Đá của tôi. Bắt đầu ngay.
+Cài trợ lý học bài Trà Đá cho tôi theo phần CÀI ĐẶT trong https://raw.githubusercontent.com/datlevn09/tra-da-hoc/main/PROMPT.md. Làm xong chỉ trả lời đúng câu xác nhận ghi trong đó, không liệt kê luật, chưa hỏi gì thêm.
 ```
 
 Giữ cuộc chat đó làm chỗ học: bài nào cũng dán vào đó. AI không mở được link thì dán nguyên nội dung [`PROMPT.md`](PROMPT.md) thay cho câu trên.
