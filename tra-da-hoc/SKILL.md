@@ -22,7 +22,7 @@ Dùng đúng các tên này, chi tiết ở `references/quy-uoc.md`:
 - Thư mục làm việc của agent (level 2 trở lên): **~/hoc-agent**.
 
 ## Chế độ 1 · Bắt đầu (lần đầu dùng skill)
-1. **Hồ sơ người học (nạp DNA).** Bạn đóng vai chuyên gia lập hồ sơ: tự đặt câu hỏi cho học viên trả lời, gọn trong 1 đến 2 lượt, theo tầng ở `references/cach-prompt.md`. Tầng cá nhân bắt buộc:
+1. **Hồ sơ của tôi.** Bạn hỏi, học viên chỉ trả lời, gọn trong 1 đến 2 lượt (cách hỏi ở `references/cach-prompt.md`). Ai cũng hỏi:
    - ngành;
    - vai trò, làm một mình hay có team;
    - việc ngốn giờ nhất;
@@ -30,7 +30,7 @@ Dùng đúng các tên này, chi tiết ở `references/quy-uoc.md`:
    - dùng Mac, Windows hay chỉ điện thoại;
    - đang học gói nào: Vỡ lòng miễn phí, AI Nội dung 499k, Tự động hoá 1.999k hay Đội Agent 4.999k.
 
-   Học viên có doanh nghiệp thì hỏi thêm tầng doanh nghiệp và phòng ban. Tóm lại thành **Hồ sơ của tôi**, hỏi lại "đúng chưa". Đang chạy trong Claude Code thì lưu vào `~/.claude/trada-dna.md`. Đang trong chat thì nhắc học viên dán hồ sơ vào **Sổ tay Trà Đá** và vào phần hướng dẫn của dự án.
+   Học viên có cửa hàng hay công ty thì hỏi thêm: bán gì, cho ai, giá, kênh bán, giọng thương hiệu. Tóm lại thành **Hồ sơ của tôi**, hỏi lại "đúng chưa". Đang chạy trong Claude Code thì lưu vào `~/.claude/trada-dna.md`. Đang trong chat thì nhắc học viên dán hồ sơ vào **Sổ tay Trà Đá** và vào phần hướng dẫn của dự án.
 2. **Chuẩn bị chỗ lưu.**
    - Trong Claude Code: tạo thư mục `~/Documents/Tra-Da-Bai-Lam/bao-cao` và file `~/Documents/Tra-Da-Bai-Lam/so-tay-tra-da.md` nếu chưa có. Windows dùng `%USERPROFILE%\Documents\...`.
    - Trong chat: hướng dẫn học viên tạo ghi chú "Sổ tay Trà Đá" và thư mục "Tra-Da-Bai-Lam" như trong `references/quy-uoc.md`.
@@ -53,9 +53,9 @@ Học viên dán đoạn `BÀI HỌC TRÀ ĐÁ` (lấy bằng nút **Chép bài 
    - Chỗ ngoặc vuông cần điền thì gợi ý điền theo hồ sơ của học viên.
    - Cuối bước hỏi: **"Dán kết quả hoặc gửi ảnh để mình kiểm."**
 4. **Kiểm từng bước.** Theo `references/cach-kiem.md`, trả lời ngắn: `Bước N: ĐẠT` kèm lý do, hoặc `Bước N: CHƯA` kèm thiếu gì và làm lại thế nào.
-5. **Tự cải tiến.** Bước nào ra sản phẩm (bài viết, bảng, kịch bản), sau khi ĐẠT thì gợi ý học viên gửi tiếp trong **chat cũ** câu: "Tự chấm bản vừa rồi theo [tiêu chí của bước] và viết lại bản tốt hơn". Đây là phần 8 của khung câu lệnh.
+5. **Tự soát.** Bước nào ra sản phẩm (bài viết, bảng, kịch bản), sau khi ĐẠT thì gợi ý học viên gửi tiếp trong **chat cũ**: "Tự soát bản vừa rồi theo dòng Đạt khi và sửa chỗ chưa đạt".
 6. **Lưu kết quả.** Sau bước có dòng "Lưu kết quả", nhắc lưu đúng chỗ. Trong Claude Code thì tự ghi vào sổ tay nếu học viên đồng ý. Nói luôn kết quả đó dùng tiếp ở đâu.
-7. **Hết bài.** Chuyển sang chế độ 3, rồi chế độ 4. Bài có câu lệnh dùng lại được thì giúp học viên rút thành **master prompt** (`references/cach-prompt.md`), lưu vào Sổ tay.
+7. **Hết bài.** Chuyển sang chế độ 3, rồi chế độ 4. Bài có câu lệnh dùng lại được thì giúp học viên gộp thành **câu lệnh gốc** (`references/cach-prompt.md`), lưu vào Sổ tay.
 
 ## Chế độ 3 · Kiểm cả bài
 Đối chiếu bằng chứng học viên đã điền với ô **Đạt khi** và các dòng **Tiêu chí chấm** của bài, nếu bài có. Ra bảng: tiêu chí, ĐẠT hay CHƯA, bằng chứng (trích kết quả hoặc tả ảnh). Còn tiêu chí CHƯA thì chỉ bước cần làm lại, không xuất báo cáo "đạt".

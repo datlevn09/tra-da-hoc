@@ -1,29 +1,41 @@
-# Cách ra lệnh cho AI trong khoá Trà Đá
+# Cách ra lệnh kiểu Trà Đá
 
-## Khung câu lệnh
-Bài 0.1 dạy khung 6 phần. Muốn kết quả dùng được ngay, thêm phần 7 và 8.
+## Gốc: khung 6 phần của bài 0.1
+Mọi câu lệnh trong khoá đều có 6 dòng:
 
-| # | Phần | Ghi gì |
-|---|---|---|
-| 1 | Vai trò | AI đóng vai ai: nghề, số năm kinh nghiệm, đã làm được gì |
-| 2 | Mục tiêu | Động từ và kết quả cần có |
-| 3 | Bối cảnh | Sản phẩm, khách hàng, dữ liệu, thời điểm (lấy từ hồ sơ DNA của học viên) |
-| 4 | Đầu vào | Tài liệu, số liệu dán kèm. Chỗ chưa có thì để `[ngoặc vuông]` cho người dùng tự điền |
-| 5 | Đầu ra | Dạng gì (bài đăng, bảng, file DOCX, HTML), dài bao nhiêu, cho ai đọc |
-| 6 | Giới hạn | Phong cách, từ cấm, không bịa số liệu, không hứa điều không có |
-| 7 | Mẫu chuẩn | Một ví dụ đúng ý để AI bắt chước |
-| 8 | Tự cải tiến | Yêu cầu AI tự chấm theo tiêu chí và đề xuất bản tốt hơn |
+    Mục tiêu:
+    Bối cảnh:
+    Đầu vào:
+    Đầu ra:
+    Đạt khi:
+    Giới hạn:
 
-Phần 7 và 8 là hai phần người mới hay bỏ quên. Đó cũng là hai phần quyết định kết quả dùng được ngay hay phải sửa nhiều.
+- **Đạt khi** là chỗ Trà Đá khác các khung khác. Ghi 2 đến 4 điều nhìn thấy được, để cả AI lẫn bạn biết kết quả nào là xong.
+- **Giới hạn** luôn có câu "thông tin không có thì ghi chưa rõ, không tự nghĩ".
 
-## Nạp DNA bằng cách để AI hỏi
-Học viên không phải tự viết hồ sơ. Câu dùng:
-- Cá nhân: "Bạn là chuyên gia lập hồ sơ người học AI. Hãy đặt cho tôi tất cả câu hỏi cần thiết, gọn trong 1 đến 2 lượt, để biết ngành, vai trò, việc hằng ngày, mục tiêu học và giọng văn của tôi. Hỏi xong thì tóm lại thành Hồ sơ của tôi."
-- Doanh nghiệp, nếu học viên có công ty: "Tiếp tục hỏi tôi toàn bộ câu hỏi để nạp DNA cấp doanh nghiệp: sản phẩm, khách hàng, giá, kênh bán, đối thủ, giọng thương hiệu."
-- Phòng ban hoặc vị trí: "Tiếp theo là cấp phòng ban hoặc vị trí của tôi: [tên phòng ban hoặc vị trí]."
-- Có website thì dán link và nhờ AI đọc. Trang bị chặn thì dán nội dung trang vào.
+## Hai dòng thêm khi cần kết quả dùng ngay
+- **Mẫu ưng ý:** dán một bản bạn thích (bài cũ của bạn, bài của trang bạn muốn giống). AI bắt chước giọng và độ dài theo mẫu.
+- **Tự soát:** "Trước khi trả, tự soát theo dòng Đạt khi, chỗ nào chưa đạt thì sửa rồi mới gửi."
 
-## Sau khi có kết quả tốt
-- Rút master prompt: "Dựa trên các câu lệnh tôi vừa dùng trong chat này, viết lại thành MASTER PROMPT chuẩn để lần sau tôi dán một lần là ra kết quả tương tự." Lưu vào Sổ tay Trà Đá, cùng mục với bài.
-- Trước khi giao AI làm việc lớn (một skill, một quy trình), bảo AI vẽ luồng để duyệt trước: "Hãy cho tôi biết quy trình công việc này, vẽ luồng vận hành chi tiết để tôi duyệt trước khi làm."
-- Luôn có bước người duyệt. Không tin AI tuyệt đối.
+Thêm hai dòng này khi làm bài viết, kịch bản hay thư gửi khách. Việc tra cứu nhanh thì 6 dòng là đủ.
+
+## Hồ sơ của tôi: để AI hỏi, bạn chỉ trả lời
+Không bắt học viên tự viết hồ sơ. Trợ lý hỏi gọn trong 1 đến 2 lượt, theo đúng thứ học viên cần:
+- **Ai cũng hỏi:** ngành, vai trò, việc ngốn giờ nhất, muốn tự làm được gì, máy đang dùng, gói đang học.
+- **Có cửa hàng hay công ty thì hỏi thêm:** bán gì, cho ai, giá khoảng nào, kênh bán, giọng thương hiệu. Có website thì xin link; trang không đọc được thì nhờ học viên dán nội dung vào.
+
+Hồ sơ lưu ở Sổ tay mục **Hồ sơ của tôi**. Bài nào cần Bối cảnh thì lấy từ đó, không hỏi lại.
+
+## Câu lệnh gốc: lưu để lần sau dán một lần
+Bài nào ra được kết quả ưng ý, gửi tiếp trong **chat cũ**:
+
+    Gộp các câu tôi vừa dùng trong chat này thành một câu lệnh gốc theo khung 6 phần, để lần sau tôi dán một lần là ra kết quả như vậy. Chỗ thay đổi mỗi lần thì để trong [ngoặc vuông].
+
+Lưu vào Sổ tay mục của bài, tiêu đề phụ **Câu lệnh gốc**. Từ level 1, câu lệnh gốc dùng tốt thì chuyển thành skill (bài dạy skill).
+
+## Xem kế hoạch trước khi làm việc lớn
+Trước việc nhiều bước (một quy trình, một skill, một trang web), bảo AI liệt kê các bước nó sẽ làm, đợi bạn duyệt rồi mới làm:
+
+    Chưa làm vội. Liệt kê các bước bạn sẽ làm và kết quả mỗi bước, để tôi duyệt trước.
+
+Đây cũng là thói quen "luôn có người duyệt" của Trà Đá: AI làm, người quyết.

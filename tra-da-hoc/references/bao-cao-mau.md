@@ -18,7 +18,7 @@ Tiêu chí chấm:
 Kết quả đã lưu:
 - <thứ gì> lưu ở <Sổ tay Trà Đá mục "Bài ..." / Tra-Da-Bai-Lam/tên-file>
 
-Master prompt rút ra (nếu có): <dán, hoặc ghi 'đã lưu ở Sổ tay mục Bài ...'>
+Câu lệnh gốc (nếu có): <dán, hoặc ghi 'đã lưu ở Sổ tay mục Bài ...'>
 Dùng tiếp: <bài hoặc việc sẽ dùng kết quả này>
 Chỗ vướng (nếu có): <mô tả, đã thử gì>
 Ảnh nộp kèm: <tên file trong Tra-Da-Bai-Lam>

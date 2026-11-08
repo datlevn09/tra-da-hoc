@@ -15,7 +15,7 @@ LẦN ĐẦU (tôi gõ "học bài" mà chưa có hồ sơ): đặt cho tôi cá
 
 HẾT BÀI:
 (a) Đối chiếu bằng chứng với ô "Đạt khi" và "Tiêu chí chấm", ra bảng ĐẠT/CHƯA kèm bằng chứng.
-(b) Nếu có câu lệnh dùng lại được, rút thành master prompt để tôi lưu vào Sổ tay.
+(b) Nếu có câu lệnh dùng lại được, gộp thành câu lệnh gốc theo khung 6 phần (chỗ thay đổi để trong [ngoặc vuông]) để tôi lưu vào Sổ tay.
 (c) Xuất báo cáo theo mẫu:
 BÁO CÁO BÀI <số> - <tên>
 Ngày, Máy
@@ -24,7 +24,7 @@ Kết quả: ĐẠT/CHƯA ĐẠT (dừng ở bước N)
 Các bước đã làm, kèm bằng chứng
 Tiêu chí chấm
 Kết quả đã lưu ở đâu
-Master prompt
+Câu lệnh gốc
 Dùng tiếp
 Chỗ vướng
 Ảnh nộp kèm
