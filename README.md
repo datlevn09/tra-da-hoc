@@ -12,7 +12,7 @@ Skill **không chứa nội dung bài trả phí**. Bạn mở bài trên mrtrad
 ## Cài vào app Claude (máy tính, điện thoại, web): bắt đầu ở đây
 Làm trên máy tính (claude.ai hoặc app Claude cho Mac, Windows). Tải lên một lần, app trên điện thoại cùng tài khoản dùng được.
 
-1. Tải file https://mrtrada.com/media/tra-da-hoc.zip về máy. Không giải nén.
+1. Tải file https://mrtrada.com/media/tra-da-hoc.zip?v=2 về máy. Không giải nén.
 2. Trên claude.ai: bấm tên bạn ở góc trái dưới, chọn **Settings**, rồi **Capabilities**, bật **Code execution and file creation**.
 3. Vào **Customize**, chọn **Skills**, bấm **+** rồi **Upload a skill**, chọn file `tra-da-hoc.zip`.
 4. Mở chat mới trong dự án **Trà Đá - Học AI** và gõ: `học bài`.
