@@ -9,7 +9,20 @@ Skill cho học viên khoá **Trà Đá AI** (mrtrada.com). Cài xong, bạn có
 
 Skill **không chứa nội dung bài trả phí**. Bạn mở bài trên mrtrada.com, bấm **Chép bài cho trợ lý học**, rồi dán vào chat. Bài nào bạn mở được thì mới chép được bài đó.
 
-## Cài vào Claude Code (Mac, Windows)
+## Cài vào app Claude (máy tính, điện thoại, web): bắt đầu ở đây
+Làm trên máy tính (claude.ai hoặc app Claude cho Mac, Windows). Tải lên một lần, app trên điện thoại cùng tài khoản dùng được.
+
+1. Tải file https://mrtrada.com/media/tra-da-hoc.zip về máy. Không giải nén.
+2. Trên claude.ai: bấm tên bạn ở góc trái dưới, chọn **Settings**, rồi **Capabilities**, bật **Code execution and file creation**.
+3. Vào **Customize**, chọn **Skills**, bấm **+** rồi **Upload a skill**, chọn file `tra-da-hoc.zip`.
+4. Mở chat mới trong dự án **Trà Đá - Học AI** và gõ: `học bài`.
+
+## Dùng với ChatGPT
+ChatGPT không cài skill được. Thay vào đó, bạn dán nội dung file `CHATGPT.md` vào **Instructions** của dự án **Trà Đá - Học AI**: mở dự án, bấm biểu tượng bánh răng hoặc **Instructions**, dán, bấm **Save**. Sau đó mở chat mới trong dự án và gõ: `học bài`.
+
+## Cài vào Claude Code (làm sau, khi đã học bài cài Claude Code ở level 2)
+Bài cơ bản chỉ cần app Claude ở trên.
+
 Mở Claude Code, dán câu này rồi bấm Enter:
 
 ```
@@ -23,15 +36,6 @@ mkdir -p ~/.claude/skills && cd /tmp && curl -L -o tra-da-hoc.zip https://github
 ```
 
 Cài xong, mở phiên Claude Code mới rồi gõ: `học bài`.
-
-## Cài vào Claude trên web hoặc app (claude.ai)
-1. Tải file https://mrtrada.com/media/tra-da-hoc.zip về máy. Không giải nén.
-2. Trên claude.ai: bấm tên bạn ở góc trái dưới, chọn **Settings**, rồi **Capabilities**, bật **Code execution and file creation**.
-3. Vào **Customize**, chọn **Skills**, bấm **+** rồi **Upload a skill**, chọn file `tra-da-hoc.zip`.
-4. Mở chat mới trong dự án **Trà Đá - Học AI** và gõ: `học bài`.
-
-## Dùng với ChatGPT
-ChatGPT không cài skill được. Thay vào đó, bạn dán nội dung file `CHATGPT.md` vào **Instructions** của dự án **Trà Đá - Học AI**: mở dự án, bấm biểu tượng bánh răng hoặc **Instructions**, dán, bấm **Save**. Sau đó mở chat mới trong dự án và gõ: `học bài`.
 
 ## Cách học với trợ lý
 1. Lần đầu: gõ `học bài`. Trợ lý hỏi vài câu để lập hồ sơ của bạn, rồi hướng dẫn tạo **Sổ tay Trà Đá** và thư mục **Tra-Da-Bai-Lam**.
