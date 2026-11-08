@@ -44,7 +44,13 @@ Mở thanh bên trái (điện thoại: bấm biểu tượng ba gạch ở góc
 Bấm nút **+** hoặc biểu tượng kẹp giấy cạnh ô nhắn, chọn ảnh, bấm gửi. Trên máy tính có thể dán thẳng ảnh vừa chụp vào ô nhắn.
 
 ## Lưu vào Sổ tay Trà Đá
-Mở ghi chú `Sổ tay Trà Đá`, xuống cuối, gõ tiêu đề `Bài <số> - <tên bài>`, dán kết quả bên dưới. Kết quả là ảnh thì lưu ảnh vào thư mục `Tra-Da-Bai-Lam`, tên bắt đầu bằng số bài.
+Sổ tay là một cuộc chat riêng tên `Sổ tay Trà Đá` trong chính Claude hoặc ChatGPT. Chưa có thì đưa học viên tới mrtrada.com/goi/thao-tac-so-tay-va-thu-muc.
+- Lưu: mở chat đó, gửi một tin có dòng đầu `Lưu Bài <số> - <tên bài>:`, nội dung ở các dòng sau. Máy tính xuống dòng bằng Shift + Enter.
+- Lấy lại: gửi `Mở Bài <số> - <tên bài>`, bấm nút chép của khối AI trả về.
+- Quên tên mục: gửi `Mục lục`.
+- Đúng khi: AI chỉ trả lời "Đã lưu: ...".
+- Bài bảo điền rồi lưu: dán khung vào ô nhắn của chat Sổ tay, dưới dòng `Lưu ...:`, điền ngay trong ô nhắn rồi mới gửi.
+- Kết quả là ảnh thì lưu ảnh vào thư mục `Tra-Da-Bai-Lam`, tên bắt đầu bằng số bài; chỉ có điện thoại thì để trong app Ảnh.
 
 ## Terminal (chỉ từ level 2)
 - Mở: Mac bấm Command + Space, gõ `Terminal`, Enter. Windows bấm phím Windows, gõ `PowerShell`, Enter.

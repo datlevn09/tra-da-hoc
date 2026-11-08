@@ -21,7 +21,7 @@ Giữ cuộc chat đó làm chỗ học: bài nào cũng dán vào đó. AI khô
 ## Lựa chọn 2: cài skill vào Claude (mọi chat đều có trợ lý)
 Làm trên máy tính (claude.ai hoặc app Claude cho Mac, Windows). Tải lên một lần, app trên điện thoại cùng tài khoản dùng được.
 
-1. Tải file https://mrtrada.com/media/tra-da-hoc.zip?v=4 về máy. Không giải nén.
+1. Tải file https://mrtrada.com/media/tra-da-hoc.zip?v=5 về máy. Không giải nén.
 2. Trên claude.ai: bấm tên bạn ở góc trái dưới, chọn **Settings**, rồi **Capabilities**, bật **Code execution and file creation**.
 3. Vào **Customize**, chọn **Skills**, bấm **+** rồi **Upload a skill**, chọn file `tra-da-hoc.zip`.
 4. Mở chat mới trong dự án **Trà Đá - Học AI** và gõ: `học bài`.

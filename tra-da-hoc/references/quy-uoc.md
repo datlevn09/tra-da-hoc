@@ -3,7 +3,7 @@
 ## Chỗ lưu cố định
 | Thứ | Tên | Tạo thế nào |
 |---|---|---|
-| Ghi chú lưu kết quả chữ | **Sổ tay Trà Đá** | Điện thoại hoặc Mac: mở app Ghi chú (Notes), tạo ghi chú mới, dòng đầu gõ `Sổ tay Trà Đá`. Windows: tạo Google Docs tên `Sổ tay Trà Đá` ở docs.google.com. Mỗi bài thêm một tiêu đề `Bài <số> - <tên bài>`, dán câu lệnh và kết quả bên dưới. |
+| Chỗ lưu kết quả chữ | **Sổ tay Trà Đá**: một cuộc chat riêng trong Claude hoặc ChatGPT, không dùng app ghi chú ngoài | Tạo một lần theo mrtrada.com/goi/thao-tac-so-tay-va-thu-muc. Lưu: gửi vào chat đó một tin có dòng đầu `Lưu Bài <số> - <tên bài>:`, nội dung ở dòng sau. Lấy lại: `Mở Bài <số> - <tên bài>`. Xem tiêu đề: `Mục lục`. |
 | Thư mục file và ảnh nộp bài | **Tra-Da-Bai-Lam** trong Tài liệu (Documents) | Mac: mở Finder, vào Documents, nhấn chuột phải và chọn New Folder. Windows: mở File Explorer, vào Documents, nhấn chuột phải, chọn New, rồi Folder. Ảnh chụp màn hình đặt tên bắt đầu bằng số bài, ví dụ `1.3-du-an.png`. |
 | Dự án học | **Trà Đá - Học AI** | Tạo ở bài "Tạo project cho từng mảng việc". Trên claude.ai: Projects, rồi New project. Trên chatgpt.com: thanh bên, New project. |
 | Dự án theo việc thật | **Việc - <tên mảng>** | Ví dụ `Việc - Bán hàng`. Mỗi mảng việc một dự án. |
