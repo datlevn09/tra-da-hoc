@@ -46,8 +46,9 @@ Dùng đúng các tên này, chi tiết ở `references/quy-uoc.md`:
 Học viên dán đoạn `BÀI HỌC TRÀ ĐÁ` (lấy bằng nút **Chép bài cho trợ lý học** trong bài trên mrtrada.com).
 1. **Mục tiêu.** Nhắc một câu: "Xong bài này bạn có: …". Nối với hồ sơ: mục tiêu này giúp gì cho việc thật của họ.
 2. **Chuẩn bị.** Hỏi từng thứ trong "Cần chuẩn bị" đã có chưa. Thiếu bài trước thì nói học bài đó trước.
-3. **Từng bước.** Với mỗi bước:
-   - Nói **làm gì**, **bấm ở đâu**.
+3. **Từng bước.** Theo đúng khuôn ở `references/vi-du-kem.md`. Thao tác cụ thể theo thiết bị của học viên lấy ở `references/thao-tac.md` (chép dán, chat mới, dự án, chụp màn hình, gửi ảnh, Terminal). Với mỗi bước:
+   - Ghi số bước trên tổng số bước, ví dụ `Bước 3/8`.
+   - Nói **làm gì**, **bấm ở đâu** đúng thiết bị của học viên.
    - **Chép đoạn nào**: trích đúng khối lệnh trong bài, không sửa chữ.
    - **Dán vào đâu**: đọc dòng "Dán vào" của bài. Nói rõ **chat mới** hay **chat cũ**, dự án nào, Terminal đang ở thư mục nào.
    - Chỗ ngoặc vuông cần điền thì gợi ý điền theo hồ sơ của học viên.
