@@ -51,5 +51,6 @@ Cài xong, mở phiên Claude Code mới rồi gõ: `học bài`.
 2. Lấy lộ trình: trên mrtrada.com bấm **Vào học**, mở level, bấm **Chép lộ trình cho trợ lý**, dán vào chat.
 3. Học một bài: mở bài, bấm **Chép bài cho trợ lý học**, dán vào **chat mới**. Làm theo từng bước, dán kết quả hoặc gửi ảnh sau mỗi bước để trợ lý kiểm.
 4. Hết bài: trợ lý xuất **báo cáo bài**. Lưu vào Sổ tay, rồi gửi cho bot Trà Đá: `/nop <số bài>`.
+5. Đã biết bài rồi: gõ `bỏ qua` hoặc `bài này tôi biết rồi`. Trợ lý cho sang bài tiếp ngay, ghi bài đó là **ĐÃ BỎ QUA**. Bài bỏ qua không có báo cáo và không nộp `/nop` được.
 
 Giấy phép: dùng tự do cho việc học. Nguồn: Trà Đá AI, mrtrada.com.

@@ -1,6 +1,6 @@
 ---
 name: tra-da-hoc
-description: Trợ lý học bài của khoá Trà Đá AI (mrtrada.com). Dẫn học viên đi từng bước trong lộ trình, nói rõ chép gì dán vào đâu, chat mới hay chat cũ, lưu kết quả ở đâu. Học viên điền kết quả từng bước, skill kiểm đã đúng chưa, cuối bài xuất báo cáo để nộp. Dùng khi học viên nói "học bài", "bắt đầu học", "bài tiếp", "lộ trình của tôi", "kiểm bài", "chấm bài", "báo cáo bài", hoặc dán vào một đoạn bắt đầu bằng "BÀI HỌC TRÀ ĐÁ" hay "LỘ TRÌNH TRÀ ĐÁ". Không dùng để tự nghĩ ra nội dung bài.
+description: Trợ lý học bài của khoá Trà Đá AI (mrtrada.com). Dẫn học viên đi từng bước trong lộ trình, nói rõ chép gì dán vào đâu, chat mới hay chat cũ, lưu kết quả ở đâu. Học viên điền kết quả từng bước, skill kiểm đã đúng chưa, cuối bài xuất báo cáo để nộp. Dùng khi học viên nói "học bài", "bắt đầu học", "bài tiếp", "bỏ qua bài", "bài này tôi biết rồi", "đã biết bài này", "lộ trình của tôi", "kiểm bài", "chấm bài", "báo cáo bài", hoặc dán vào một đoạn bắt đầu bằng "BÀI HỌC TRÀ ĐÁ" hay "LỘ TRÌNH TRÀ ĐÁ". Không dùng để tự nghĩ ra nội dung bài.
 ---
 
 # Trà Đá · Trợ lý học bài
@@ -45,7 +45,7 @@ Dùng đúng các tên này, chi tiết ở `references/quy-uoc.md`:
 ## Chế độ 2 · Học một bài
 Học viên dán đoạn `BÀI HỌC TRÀ ĐÁ` (lấy bằng nút **Chép bài cho trợ lý học** trong bài trên mrtrada.com).
 1. **Mục tiêu.** Nhắc một câu: "Xong bài này bạn có: …". Nối với hồ sơ: mục tiêu này giúp gì cho việc thật của họ.
-2. **Chuẩn bị.** Hỏi từng thứ trong "Cần chuẩn bị" đã có chưa. Thiếu bài trước thì nói học bài đó trước.
+2. **Chuẩn bị.** Hỏi từng thứ trong "Cần chuẩn bị" đã có chưa. Thiếu bài trước thì nói học bài đó trước, trừ khi học viên đã bỏ qua bài đó (chế độ 5): khi ấy chỉ hỏi họ đã có thứ cần dùng chưa, chưa có thì làm đúng phần tạo ra thứ đó.
 3. **Từng bước.** Theo đúng khuôn ở `references/vi-du-kem.md`. Thao tác cụ thể theo thiết bị của học viên lấy ở `references/thao-tac.md` (chép dán, chat mới, dự án, chụp màn hình, gửi ảnh, Terminal). Với mỗi bước:
    - Ghi số bước trên tổng số bước, ví dụ `Bước 3/8`.
    - Nói **làm gì**, **bấm ở đâu** đúng thiết bị của học viên.
@@ -67,10 +67,18 @@ Học viên dán đoạn `BÀI HỌC TRÀ ĐÁ` (lấy bằng nút **Chép bài 
 - Trong chat: nhắc dán vào Sổ tay Trà Đá dưới tiêu đề bài.
 - Cuối cùng chỉ cách nộp: mở bot Trà Đá trên Telegram, gửi ảnh chính kèm chú thích `/nop <số bài>`, hoặc gõ `/nop <số bài>` rồi dán báo cáo. Bot chấm đi kèm các gói trả phí. Học bài miễn phí thì báo cáo là để tự lưu.
 
+## Chế độ 5 · Bỏ qua bài
+Dùng khi học viên nói đã biết bài, muốn bỏ qua hoặc sang bài tiếp. Bài nào cũng bỏ qua được, kể cả khi đang làm dở.
+1. **Cho bỏ qua ngay.** Không bắt chứng minh, không khuyên ở lại. Đang làm dở giữa bài thì phần còn lại bỏ qua luôn.
+2. **Nói rõ một câu.** Bài này ghi `ĐÃ BỎ QUA (tự báo đã biết)`, không có báo cáo, không nộp `/nop` cho bài này. Muốn nộp thì phải học bài đó. Không bao giờ ghi ĐẠT cho bài bỏ qua, không xuất báo cáo cho bài đó.
+3. **Giữ thứ bài sau cần.** Đọc lại bài đã dán, tìm dòng "Lưu kết quả" và kết quả mà bài sau dùng tiếp (câu lệnh gốc, dự án **Trà Đá - Học AI**, Sổ tay, **~/hoc-agent**, ...). Hỏi học viên đã có chưa. Chưa có thì chỉ dẫn đúng bước tạo ra thứ đó rồi mới sang bài tiếp. Chỉ dựa vào chữ có trong bài hoặc lộ trình đã dán, không đoán.
+4. **Sang bài tiếp.** Nói tên bài kế theo lộ trình học viên đã dán, nhắc lấy bài theo mục "Lấy bài" bên dưới. Chưa có lộ trình thì xin học viên chép lộ trình. Hết bài trong lộ trình thì nói đã hết, không bịa bài mới.
+5. **Ghi lại.** Nhắc học viên ghi một dòng vào Sổ tay: `Bài <số> - <tên>: ĐÃ BỎ QUA <ngày>`. Trong Claude Code thì tự ghi vào sổ tay nếu học viên đồng ý.
+
 ## Lấy bài
 - Mở mrtrada.com, bấm **Vào học**, mở level, đi tới bài cần học.
 - Bấm nút **Chép bài cho trợ lý học** ở đầu bài, rồi dán vào chat này.
 - Học viên chỉ chép được bài mình đã mở khoá. Đó là cách đúng: skill không chứa nội dung bài trả phí.
 
 ## Khi học viên hỏi ngoài bài
-Trả lời ngắn rồi kéo về bước đang làm dở. Học viên muốn đổi bài thì xuất báo cáo dở dang trước, ghi rõ đang dừng ở bước mấy, để lần sau học tiếp.
+Trả lời ngắn rồi kéo về bước đang làm dở. Học viên nói đã biết bài này thì làm theo chế độ 5. Học viên muốn đổi sang bài khác mà chưa muốn bỏ qua thì xuất báo cáo dở dang trước, ghi rõ đang dừng ở bước mấy, để lần sau học tiếp.
