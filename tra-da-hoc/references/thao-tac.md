@@ -11,7 +11,7 @@ Khi một bước cần thao tác dưới đây, hướng dẫn đúng thiết b
 | Windows | Bôi đen chữ, bấm Ctrl + C | Bấm vào ô cần dán, bấm Ctrl + V |
 | iPhone, Android | Chạm giữ chữ, kéo hai đầu để chọn hết, chọn Sao chép (Copy) | Chạm giữ vào ô nhắn, chọn Dán (Paste) |
 
-Trên mrtrada.com, khối lệnh nào cũng có nút **Chép** ở góc phải. Bấm nút đó thay cho việc bôi đen.
+Trên https://mrtrada.com/goi/hoc, khối lệnh nào cũng có nút **Chép** ở góc phải. Bấm nút đó thay cho việc bôi đen.
 
 ## Mở chat mới
 - **Claude (claude.ai hoặc app):** bấm **New chat** ở góc trái trên (biểu tượng dấu cộng hoặc cây bút). Trong dự án: mở dự án rồi gõ vào ô nhắn ở giữa trang dự án.

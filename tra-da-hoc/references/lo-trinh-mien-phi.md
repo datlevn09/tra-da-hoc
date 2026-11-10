@@ -1,6 +1,6 @@
 # Lộ trình miễn phí (công khai)
 
-Học viên chưa dán lộ trình riêng thì dùng lộ trình này. Lộ trình các gói trả phí chỉ có khi học viên tự chép từ mrtrada.com bằng nút "Chép lộ trình cho trợ lý".
+Học viên chưa dán lộ trình riêng thì dùng lộ trình này. Lộ trình các gói trả phí chỉ có khi học viên tự chép từ https://mrtrada.com/goi/hoc bằng nút "Chép lộ trình cho trợ lý".
 
 ## Khoá Vỡ lòng: 8 bài công khai, không cần đăng ký
 Đọc trên mrtrada.com/goi/vo-long, theo thứ tự:
@@ -14,7 +14,7 @@ Học viên chưa dán lộ trình riêng thì dùng lộ trình này. Lộ trì
 
 Bài Vỡ lòng là trang công khai: học viên chép phần bước trên trang và dán vào đây để được kèm.
 
-## Level 0: miễn phí sau khi đăng ký học thử trên mrtrada.com
+## Level 0: miễn phí sau khi đăng ký học thử trên https://mrtrada.com/goi/hoc
 - 0.1 Giao việc 6 phần, AI làm đúng ngay lần đầu. Kết quả: một câu lệnh cho việc thật, lưu vào Sổ tay mục "Bài 0.1 - Câu lệnh 6 phần".
 - 0.2 Mỗi việc của bạn dùng công cụ nào. Kết quả: danh sách 5 việc kèm công cụ.
 - 0.3 Biết việc nào cần chat, agent, skill hay MCP. Kết quả: 3 việc đã gắn nhãn.

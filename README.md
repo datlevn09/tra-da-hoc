@@ -7,7 +7,7 @@ Skill cho học viên khoá **Trà Đá AI** (mrtrada.com). Cài xong, bạn có
 - **kiểm bạn làm đúng chưa** ở từng bước, dựa trên kết quả bạn dán vào;
 - **xuất báo cáo** mỗi bài để lưu và nộp cho bot chấm.
 
-Skill **không chứa nội dung bài trả phí**. Bạn mở bài trên mrtrada.com, bấm **Chép bài cho trợ lý học**, rồi dán vào chat. Bài nào bạn mở được thì mới chép được bài đó.
+Skill **không chứa nội dung bài trả phí**. Bạn mở bài trên https://mrtrada.com/goi/hoc, bấm **Chép bài cho trợ lý học**, rồi dán vào chat. Bài nào bạn mở được thì mới chép được bài đó.
 
 ## Lựa chọn 1: dán 1 câu vào chat AI (nên dùng)
 Mở app Claude hoặc ChatGPT, bấm chat mới, dán câu này rồi gửi:
@@ -48,7 +48,7 @@ Cài xong, mở phiên Claude Code mới rồi gõ: `học bài`.
 
 ## Cách học với trợ lý
 1. Lần đầu: gõ `học bài`. Trợ lý hỏi vài câu để lập hồ sơ của bạn, rồi hướng dẫn tạo **Sổ tay Trà Đá** và thư mục **Tra-Da-Bai-Lam**.
-2. Lấy lộ trình: trên mrtrada.com bấm **Vào học**, mở level, bấm **Chép lộ trình cho trợ lý**, dán vào chat.
+2. Lấy lộ trình: trên https://mrtrada.com/goi/hoc bấm **Vào học**, mở level, bấm **Chép lộ trình cho trợ lý**, dán vào chat.
 3. Học một bài: mở bài, bấm **Chép bài cho trợ lý học**, dán vào **chat mới**. Làm theo từng bước, dán kết quả hoặc gửi ảnh sau mỗi bước để trợ lý kiểm.
 4. Hết bài: trợ lý xuất **báo cáo bài**. Lưu vào Sổ tay, rồi gửi cho bot Trà Đá: `/nop <số bài>`.
 5. Đã biết bài rồi: gõ `bỏ qua` hoặc `bài này tôi biết rồi`. Trợ lý cho sang bài tiếp ngay, ghi bài đó là **ĐÃ BỎ QUA**. Bài bỏ qua không có báo cáo và không nộp `/nop` được.
