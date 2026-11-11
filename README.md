@@ -47,7 +47,7 @@ mkdir -p ~/.claude/skills && cd /tmp && curl -L -o tra-da-hoc.zip https://github
 Cài xong, mở phiên Claude Code mới rồi gõ: `học bài`.
 
 ## Cách học với trợ lý
-1. Lần đầu: gõ `học bài`. Trợ lý hỏi vài câu để lập hồ sơ của bạn, rồi hướng dẫn tạo **Sổ tay Trà Đá** và thư mục **Tra-Da-Bai-Lam**.
+1. Lần đầu: gõ `học bài`. Trợ lý hỏi vài câu để lập hồ sơ của bạn, rồi hướng dẫn mở **Sổ tay Trà Đá** trên web (https://mrtrada.com/goi/so-tay, đăng nhập là có sẵn) và tạo thư mục **Tra-Da-Bai-Lam**.
 2. Lấy lộ trình: trên https://mrtrada.com/goi/hoc bấm **Vào học**, mở level, bấm **Chép lộ trình cho trợ lý**, dán vào chat.
 3. Học một bài: mở bài, bấm **Chép bài cho trợ lý học**, dán vào **chat mới**. Làm theo từng bước, dán kết quả hoặc gửi ảnh sau mỗi bước để trợ lý kiểm.
 4. Hết bài: trợ lý xuất **báo cáo bài**. Lưu vào Sổ tay, rồi gửi cho bot Trà Đá: `/nop <số bài>`.

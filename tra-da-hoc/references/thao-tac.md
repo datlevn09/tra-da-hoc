@@ -44,10 +44,10 @@ Mở thanh bên trái (điện thoại: bấm biểu tượng ba gạch ở góc
 Bấm nút **+** hoặc biểu tượng kẹp giấy cạnh ô nhắn, chọn ảnh, bấm gửi. Trên máy tính có thể dán thẳng ảnh vừa chụp vào ô nhắn.
 
 ## Lưu vào Sổ tay Trà Đá
-Sổ tay để học viên lưu lại cả quá trình học. Là một tài liệu Google Docs (docs.google.com) hoặc một ghi chú trong app Ghi chú trên Mac/iPhone, KHÔNG phải một cuộc chat. Chưa có thì đưa học viên tới mrtrada.com/goi/thao-tac-so-tay-va-thu-muc.
-- Lưu: mở Sổ tay, xuống cuối, gõ một dòng tiêu đề `Bài <số> - <tên bài>`, dán kết quả bên dưới.
-- Lấy lại: mở Sổ tay, cuộn tới đúng tiêu đề, bôi đen chép ra.
-- Bài bảo điền rồi lưu: điền ngay trong Sổ tay dưới tiêu đề, xong mới chép sang chat học.
+Sổ tay để học viên lưu lại cả quá trình học. Có sẵn trên web tại mrtrada.com/goi/so-tay (cần đăng nhập, tự lưu, đồng bộ máy tính và điện thoại), KHÔNG phải một cuộc chat, không cần Google Docs hay app Ghi chú. Chưa rõ cách dùng thì đưa học viên tới mrtrada.com/goi/thao-tac-so-tay-va-thu-muc.
+- Lưu: mở Sổ tay, bấm ghi chú `Bài <số> - <tên bài>` ở cột Danh mục bên trái (chưa thấy thì bấm ＋ Tạo danh mục mới hoặc thêm ghi chú), dán kết quả vào. Không cần bấm Lưu.
+- Lấy lại: mở Sổ tay, bấm đúng ghi chú của bài, bôi đen chép ra.
+- Bài bảo điền rồi lưu: điền ngay trong ghi chú của bài, xong mới chép sang chat học.
 - Kết quả là ảnh thì lưu vào thư mục `Tra-Da-Bai-Lam`, tên bắt đầu bằng số bài; chỉ có điện thoại thì để trong app Ảnh.
 
 ## Terminal (chỉ từ level 2)
